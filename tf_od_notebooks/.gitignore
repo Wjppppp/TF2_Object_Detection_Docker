@@ -1,0 +1,8 @@
+trained_model
+exported_model
+bccd_coco_tfrecords
+BCC.v1-bccd.coco
+BCC.v1-bccd.coco/*
+.ipynb_checkpoints
+models/BCC.v1-bccd.coco
+models/BCC.v1-bccd.coco/*
