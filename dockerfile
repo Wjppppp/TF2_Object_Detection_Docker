@@ -1,23 +1,3 @@
-# FROM tensorflow/tensorflow:2.12.0-gpu-jupyter
-
-# # Install apt dependencies
-# RUN apt-get update &&\
-#     apt-get install -y \
-#     git \
-#     python3.9 \
-#     python3-pip
-
-# RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.9 1
-# RUN update-alternatives --install /usr/bin/python3 python /usr/bin/python3.9 1
-
-# RUN pip install --upgrade pip
-# RUN pip install tensorflow==2.12.0
-# RUN pip install tf-models-official==2.12.0
-
-# WORKDIR /app
-# COPY . .
-
-
 # # python 3.10 + tensorflow 2.12.0 + tf-models-official==2.12.0
 
 FROM nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04
